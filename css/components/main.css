@@ -1,0 +1,54 @@
+.container-main {
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.container-main h2 {
+  margin-top: 20px;
+  color: lightslategrey;
+  font-weight: bolder;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  border: 1px solid rgb(230,230,230);
+  box-shadow: 0 0 5px rgb(230 230 230);
+  border-radius: 3px;
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: darkslategrey;
+  font-size: 40px;
+  text-align: center;
+  padding: 50px;
+}
+.footer span {
+  font-size: 20px;
+}
+.footer ul {
+  margin: 0;
+}
+.footer ul > li {
+  display: inline-block;
+}
+.footer a {
+  color: darkmagenta;
+  margin: 0;
+}
+.footer a:hover {
+  color: magenta;
+}
